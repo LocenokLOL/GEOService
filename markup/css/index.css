@@ -30,7 +30,7 @@ h1 {
 }
 
 body {
-  background: url("/static/index/img/bg.png");
+  background: url("../img/background.png");
 }
 
 @-webkit-keyframes gradient {
@@ -700,3 +700,4 @@ content .main .new-block p {
 content .main .new-block a {
   padding: 0 30px;
 }
+

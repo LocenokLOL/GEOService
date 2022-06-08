@@ -29,7 +29,8 @@ h1 {
 }
 
 body {
-  background: url("./bg.png");
+  background: url("../img/background.png");
+
 }
 
 @-webkit-keyframes gradient {
@@ -132,6 +133,8 @@ main {
   width: 100%;
   background: #f2f2f2;
   padding: 30px 30px 30px 30px;
+  position: absolute;
+  height: 100%;
 }
 
 .reg-container:before {
@@ -232,3 +235,5 @@ main {
   margin-top: 16px;
   margin-left: 15px;
 }
+
+

@@ -30,7 +30,7 @@ h1 {
 }
 
 body {
-  background: url("/static/index/img/bg.png");
+  background: url("../img/bg.png");
 }
 
 @-webkit-keyframes gradient {
@@ -613,7 +613,9 @@ content {
             flex-direction: row;
   }
   .business .name::after {
-    content: 'бизнес тариф';
+    content: 'Тариф           хостинг';
+
+    white-space: pre-wrap;
   }
   .business .price {
     line-height: 100px;

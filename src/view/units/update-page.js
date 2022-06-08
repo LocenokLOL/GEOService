@@ -5,5 +5,10 @@ export const updatePage=(tag, render) => {
     evt.preventDefault();
     deleteFunction();
     render();
+    const shadowBox= document.querySelector('.shadow-box');
+    if (shadowBox !== null){
+      document.querySelector('.shadow-box').remove();
+      document.querySelector('.reg-container').remove();
+    }
   });
 };
